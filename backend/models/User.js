@@ -25,18 +25,7 @@ const userSchema = Schema({
         enum: ["candidate", "interviewer"],
         default: "candidate",
     },
-    interviewsAttended: {
-        type: Number,
-        default: 0,
-    },
-    interviewsConducted: {
-        type: Number,
-        default: 0,
-    },
-    quizTaken: {
-        type: Number,
-        default: 0,
-    },
+    
     resume: {
         type: String,
         default: "",
